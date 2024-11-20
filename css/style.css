@@ -1,0 +1,95 @@
+body{
+    background-color: #F7ECDE;
+}
+
+::selection {
+    background-color:#FEC260;  
+}
+
+h1 {
+    font-size: 3.125rem;
+    font-family: Pacifico, cursive;
+    font-weight: 500;
+    text-align: center;
+    margin: 40px;
+    color: black;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to top, rgb(246, 183, 66) 50%, transparent 50%);
+    background-size: 100% 100%;
+    background-position: bottom; 
+    transition: background-size 0.5s, background-position 0.5s; 
+}
+
+h1:hover {
+    background-size:  100% 200%;
+    background-position: bottom; 
+}
+
+
+
+.border-line {
+    width: 100%;
+    border-top: 2px dotted black; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+h2 {
+    text-align: center;
+    background: linear-gradient(to right, rgb(3, 99, 3), rgb(235, 235, 11));
+    background-clip: text; 
+    color: transparent; 
+}
+
+
+button{
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 400;
+    color: white;
+    border-radius:5px;
+    padding: 5px 40px;
+    font-weight: 700;
+    background-color:#BB4120;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#76250f;
+
+}
+
+.btn-submit {
+    position: relative;
+    padding: 10px 20px;
+}
+
+.btn-submit::after {
+    content: "";
+    position: absolute; 
+    bottom: -10px; 
+    left: 0;
+    width: 100%;  
+    border-bottom: 2px dotted black;
+    margin-top: 10px; 
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr {
+    border-bottom: 2px solid rgb(235, 232, 232); 
+}
+
+
